@@ -9,8 +9,7 @@ en de volgende output terugstuurt.
 ["Sven", "Yur"]                   --> "Sven en Yur like this"
 ```
 
-Één iemand uit jouw group kopieert `opdracht_1.py` naar de github folder van jouw team in `group_x` en commit + pusht 
-de file. De file zou nu voor heel jouw team zichtbaar moeten zijn.
+Één iemand uit jouw groep 'forked' de repository naar zijn/haar GitHub pagina en deelt het scherm om samen door de stappen te lopen. De opdrachten zouden nu zichtbaar moeten zijn in de persoonlijke GitHub omgeving. De eigenaar van de repo geeft toegang iedereen uit de groep. Ga naar settings -> Collaborators en voeg je groepsgenoten toe. Ga daarna naar 'Branches' en voeg default branch protection rules toe. Iedereen uit de groep 'cloned' nu deze nieuwe geforkte repo naar je project in je IDE. Gebruik `git --init` in je terminal om git te initieren. Werk nu samen aan de bovenstaande opdracht, de eigenaar van de repo commit en pusht de eerste opdracht naar de repo toe. Doe dit met `git push`.
 
 Teamgenoot 2 breidt de code nu uit naar 3 personen die de volgende output heeft:
 
@@ -21,8 +20,9 @@ Teamgenoot 2 breidt de code nu uit naar 3 personen die de volgende output heeft:
 ["Sebas", "Wies", "Kirsty"]       --> "Sebas, Wies and Kirsty like this"
 ```
 
-Teamgenoot 2 commit en pusht de nieuwe code nu naar de nieuwe branch. Teamgenoot 3 bouwt verder op deze code en maakt
-de functie compleet. De output voor 3 of meer personen ziet er alsvolgt uit:
+Maak een branch aan en noem hem 'three-persons'. Teamgenoot 2 commit en merged de nieuwe code nu naar de main branch. Teamgenoot 1 ziet nu een pull request verschijnen. Deel je scherm en probeer samen de pull request te accepteren, of als de code niet goed is om feedback te geven. Ga door totdat de code klopt. Maak de functie nu samen af in een nieuwe branch die 'all-input' heet.
+
+De output voor 3 of meer personen ziet er alsvolgt uit:
 
 ```
 []                                          --> "no one likes this"
@@ -31,10 +31,5 @@ de functie compleet. De output voor 3 of meer personen ziet er alsvolgt uit:
 ["Sebas", "Wies", "Kirsty"]                 --> "Sebas, Wies and Kirsty like this"
 ["Sjors", "Reinier", "Christiaan", "Mandy"] --> "Sjors, Reinier and 2 others like this" 
 ```
-Waar voor 4 of meer namen het getal in `and 2 others` toeneemt. Teamgenoot 3 pusht commit en pusht deze code nu naar de
-main branch.
 
-Goed gedaan, je kan nu clonen, committen en pushen. Nu gaan we verder met branchen.
-
-
-
+Waar voor 4 of meer namen het getal in `and 2 others` toeneemt. Merge de code naar de main branch.
