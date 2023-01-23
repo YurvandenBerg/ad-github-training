@@ -1,2 +1,2 @@
 # ad-github-training
-Exersises to get started with GitHub
+Exercises to get started with GitHub
