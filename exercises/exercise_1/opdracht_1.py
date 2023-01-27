@@ -1,7 +1,10 @@
 def likes(team: list) -> str:
     if len(team) == 0:
-        return "no one likes this"
+        print("no one likes this")
     elif len(team) == 1:
-        return str(team[0]) + ' likes this'
+        print(str(team[0]) + ' likes this')
     elif len(team) == 2:
-        return str(team[0]) + ' and '+str(team[1]) + ' like this'
+        print(str(team[0]) + ' and '+str(team[1]) + ' like this')
+    elif len(team) == 3:
+        print(str(team[0]) + ', ' + str(team[1]) + ' and ' +str(team[2]) + ' like this')
+
