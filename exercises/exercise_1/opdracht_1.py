@@ -5,5 +5,5 @@ def likes(team: list) -> str:
         return f"{team[0]} likes this"
     elif len(team) ==2:
         return f"{team[0]} en {team[1]} like this"
-
-print(likes(['Niels']))
+    elif len(team) == 3:
+        return f"{team[0]}, {team[1]} en {team[2]} like this"
