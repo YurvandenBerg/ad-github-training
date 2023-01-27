@@ -1,2 +1,9 @@
 def likes(team: list) -> str:
-    return True
+    if len(team) ==0:
+        return "No one likes this"
+    elif len(team) ==1:
+        return f"{team[0]} likes this"
+    elif len(team) ==2:
+        return f"{team[0]} en {team[1]} like this"
+
+print(likes(['Niels']))
